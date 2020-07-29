@@ -1,3 +1,5 @@
+@import "./font.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +13,11 @@ img {
   -khtml-user-select: none;
   user-select: none;
   -webkit-user-drag: none;
+}
+
+html,
+body {
+  font-family: NotoSansKR;
+  min-height: 100vh;
+  margin: 0;
 }
