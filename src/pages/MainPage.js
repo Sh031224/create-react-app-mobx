@@ -1,10 +1,10 @@
 import React from "react";
-import ExampleContainer from "containers/Example/ExampleContainer";
+import MainContainer from "containers/Main/MainContainer";
 
 const ProfilePage = () => {
   return (
     <>
-      <ExampleContainer />
+      <MainContainer />
     </>
   );
 };
