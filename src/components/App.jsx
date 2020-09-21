@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import NotFoundPage from "../pages/NotFoundPage";
 import MainPage from "../pages/MainPage";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Switch>
@@ -13,6 +13,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;

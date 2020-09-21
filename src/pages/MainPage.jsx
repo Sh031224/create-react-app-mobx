@@ -1,7 +1,7 @@
 import React from "react";
 import MainContainer from "containers/Main/MainContainer";
 
-const ProfilePage = () => {
+const MainPage = () => {
   return (
     <>
       <MainContainer />
@@ -9,4 +9,4 @@ const ProfilePage = () => {
   );
 };
 
-export default ProfilePage;
+export default MainPage;
